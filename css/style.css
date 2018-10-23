@@ -1,63 +1,77 @@
 * {
 	font-family: 'Slabo 27px', serif;
 }
+
 #footer {
 	background-color: gray;
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%; color : white;
+	width: 100%;
+	color: white;
 	text-align: center;
 	color: white;
 }
+
 #contenidoHeader {
 	background-image: url("../img/header.jpg");
-
 	opacity: 0.8;
 	height: 550px;
-
-	display:block;
 	
+	display: block;
 }
-#slider{
-	display:block;
+
+#slider {
+	display: block;
 }
+
 #letrasHeader {
 	filter: shadow(color = #555555, direction = 135, strength = 2);
 	color: white;
 	font-size: 60px;
-	 margin-top: 10%;
-	 text-align: center;
-}
-.contenido{
-	
-	margin-left: 5%;
-	margin-top:1.5%;
-}
-.separatorIMG{
-	height:42px;
-	 width:42px;
-	
+	margin-top: 10%;
+	text-align: center;
 }
 
-.separador{
+.contenido {
+	margin-left: 5%;
+	margin-top: 1.5%;
+}
+
+.separatorIMG {
+	height: 42px;
+	width: 42px;
+}
+
+.separador {
 	background-color: black;
 	width: 20%;
-	   justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .separadorpadre {
- 
- margin-bottom:5%;
-  /*IMPORTANTE*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	margin-bottom: 5%;
+	/*IMPORTANTE*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .separadorhijo {
-  background: black;
-  width: 33%;
-  height: 5px;
+	background: black;
+	width: 33%;
+	height: 5px;
+}
+
+.cardPadre {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardHijo {
+	
 }

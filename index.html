@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Alex Carrión CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet"
@@ -27,7 +28,7 @@
 
 				</ul>
 			</nav>
-			<div class="row" id="slider">
+		<div class="row" id="slider">
 				<div class="col-2">
 					<div class="nav flex-column nav-pills" role="tablist"
 						aria-orientation="vertical">
@@ -50,8 +51,17 @@
 			</div>
 
 
+
 			<div
 				class="  text-center d-flex flex-column bd-highlight mb-3 border border-dark mt-2">
+				<div class="w3-container cardPadre">
+					<div class="w3-card-4 cardHijo pt-3 w3-animate-bottom" style="width: 50%">
+						<img src="img/fotoPerfil.PNG" alt="fotoPerfil" style="width: 33%">
+						<div class="w3-container w3-center">
+							<h4>Alejandro Carrión</h4>
+						</div>
+					</div>
+				</div>
 				<div class="p-2 bd-highlight">
 					<h2 class="mt-2">
 						<img src="img/ico.png" width="30" height="30" class="align-top"
@@ -154,29 +164,7 @@
 		</div>
 	</div>
 
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
 
-		function plusDivs(n) {
-			showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-			var i;
-			var x = document.getElementsByClassName("mySlides");
-			if (n > x.length) {
-				slideIndex = 1
-			}
-			if (n < 1) {
-				slideIndex = x.length
-			}
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			x[slideIndex - 1].style.display = "block";
-		}
-	</script>
 
 
 </body>
