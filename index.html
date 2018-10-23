@@ -9,6 +9,7 @@
 	crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Slabo+27px"
 	rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 	<div class="container " id="contenedor ">
@@ -39,7 +40,8 @@
 							aria-selected="false">Contacto</a>
 					</div>
 				</div>
-				<div class="col-11 contenido rounded" id="contenidoHeader">
+				<div class="col-11 contenido rounded w3-animate-top "
+					id="contenidoHeader">
 					<div>
 						<p id="letrasHeader">CV</p>
 					</div>
@@ -60,7 +62,7 @@
 					<div class="rounded separadorhijo">.</div>
 				</div>
 
-				<div class="p-2 bd-highlight">
+				<div class="p-2 bd-highlight ">
 					<h4>
 						<img src="img/tecIco.PNG" width="30" height="30"
 							class="d-inline-block align-top" alt="ico">Tecnologías:
@@ -79,6 +81,7 @@
 						<li>CSS<br /> <progress value="60" max="100"></li>
 
 					</ul>
+
 				</div>
 				<div class="separadorPadre">
 					<div class="rounded separadorhijo">.</div>
@@ -150,6 +153,30 @@
 
 		</div>
 	</div>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = x.length
+			}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex - 1].style.display = "block";
+		}
+	</script>
 
 
 </body>
