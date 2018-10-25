@@ -72,6 +72,7 @@
 	align-items: center;
 }
 
-.cardHijo {
+.tarjeta {
+	min-width: 70px;
 	
 }

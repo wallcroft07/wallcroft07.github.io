@@ -42,7 +42,7 @@
 							aria-selected="false">Contacto</a>
 					</div>
 				</div>
-				<div class="col-11 contenido rounded w3-animate-top "
+				<div class="col-11 contenido rounded w3-center w3-animate-top "
 					id="contenidoHeader">
 					<div>
 						<p id="letrasHeader">CV</p>
@@ -54,11 +54,12 @@
 
 
 			<div
-				class="  text-center d-flex flex-column bd-highlight mb-3 border border-dark mt-2">
+				class="  text-center d-flex flex-column bd-highlight mb-3 border border-dark mt-2 ">
 				<div class="w3-container cardPadre">
 					<div class="w3-card-4 cardHijo pt-3 w3-animate-bottom"
 						style="width: 50%">
-						<img src="img/fotoPerfil.PNG" alt="fotoPerfil" style="width: 33%">
+						<img class="tarjeta" src="img/fotoPerfil.PNG" alt="fotoPerfil"
+							style="width: 33%">
 						<div class="w3-container w3-center">
 							<h4>Alejandro Carrión</h4>
 						</div>
@@ -69,8 +70,9 @@
 
 					<div class="w3-panel w3-leftbar w3-white w3-xxlarge w3-serif">
 						<p>
-							<i>"Trabaja en lo que te gusta y no tendrás que trabajar
-								nunca."</i>
+							<i class="w3-tooltip">"Elige un trabajo que te guste y no tendrás que trabajar ni un día de tu vida."
+							<span class="w3-text w3-tag w3-black">Confucio.</span></i>
+							
 						</p>
 					</div>
 				</div>
@@ -121,7 +123,7 @@
 						<li>Estudiante 2º Desarrollo Aplicaciones Web</li>
 						<li>Bachiller Sociales</li>
 					</ul>
-				
+
 				</div>
 				<div class="separadorPadre">
 					<div class="rounded separadorhijo">.</div>
@@ -133,29 +135,57 @@
 							class="d-inline-block align-top" alt="ico">Experiencia
 						laboral:
 					</h4>
-					<p>Soldado Ejercito de Tierra</p>
+					<ul>
+						<li>Soldado Ejercito de Tierra</li>
+					</ul>
+				</div>
+				<div class="separadorPadre">
+					<div class="rounded separadorhijo">.</div>
+				</div>
+				<div class="p-2 bd-highlight">
+					<h4>
+						<img src="img/volunteer.jpg" width="30" height="30"
+							class="d-inline-block align-top" alt="ico">Voluntariado:
+					</h4>
+					<ul>
+						<li>Protección Civil La Rinconada</li>
+					</ul>
+
 				</div>
 				<div class="separadorPadre">
 					<div class="rounded separadorhijo">.</div>
 				</div>
 
-				<div class="p-2 bd-highlight">
+				<div class="w3-container">
 					<h4>
 						<img src="img/wwwIco.png" width="30" height="30"
 							class="d-inline-block align-top" alt="ico">Enlaces de
 						interés:
 					</h4>
-					<ul>
-						<li><a
-							href="https://www.linkedin.com/in/alejandro-manuel-carrion-007/">Visitar
-								linkedin </a></li>
-						<li><a href="https://github.com/wallcroft07">Visitar
-								GitHub </a></li>
-					</ul>
+					<button
+						onclick="document.getElementById('id01').style.display='block'"
+						class="w3-button w3-black">Abrir</button>
+
+					<div id="id01" class="w3-modal">
+						<div class="w3-modal-content">
+							<div class="w3-container">
+								<span
+									onclick="document.getElementById('id01').style.display='none'"
+									class="w3-button w3-display-topright">&times;</span>
+								<ul>
+									<li><a
+										href="https://www.linkedin.com/in/alejandro-manuel-carrion-007/">Visitar
+											linkedin </a></li>
+									<li><a href="https://github.com/wallcroft07">Visitar
+											GitHub </a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 
-
-				<div class="separadorPadre">
+				<div class="separadorPadre mt-5">
 					<div class="rounded separadorhijo">.</div>
 				</div>
 
